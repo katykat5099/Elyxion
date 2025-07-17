@@ -2520,17 +2520,17 @@
         "if_true": {
           "type": "minecraft:vertical_gradient",
           "false_at_and_above": {
-            "absolute": -18
+            "absolute": -20
           },
-          "random_name": "elyxion:deepslate_bedrock",
+          "random_name": "elyxion:obdurite",
           "true_at_and_below": {
-            "absolute": -32
+            "absolute": -30
           }
         },
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "elyxion:deepslate_bedrock",
+            "Name": "elyxion:obdurite",
             "Properties": {
               "axis": "y"
             }
@@ -2566,7 +2566,7 @@
           "false_at_and_above": {
             "absolute": 40
           },
-          "random_name": "elyxion:stone_deepslate",
+          "random_name": "elyxion:hardstone",
           "true_at_and_below": {
             "absolute": 38
           }
@@ -2574,7 +2574,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "elyxion:stone_deepslate",
+            "Name": "elyxion:hardstone",
             "Properties": {
               "axis": "y"
             }

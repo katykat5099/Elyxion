@@ -26,8 +26,8 @@ public class ElyxionBlocks {
     public static final RegistryObject<Block> SEWING_MACHINE = registerBlock("sewing_machine", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> TRAP = registerBlock("trap", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> ANIMAL_TOTEM = registerBlock("animal_totem", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final RegistryObject<Block> STONE_DEEPSLATE = registerBlock("stone_deepslate", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
-    public static final RegistryObject<Block> DEEPSLATE_BEDROCK = registerBlock("deepslate_bedrock", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> HARDSTONE = registerBlock("hardstone", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> OBDURITE = registerBlock("obdurite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

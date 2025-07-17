@@ -34,8 +34,8 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.SEWING_MACHINE.get());
                 output.accept(ElyxionBlocks.TRAP.get());
                 output.accept(ElyxionBlocks.ANIMAL_TOTEM.get());
-                output.accept(ElyxionBlocks.STONE_DEEPSLATE.get());
-                output.accept(ElyxionBlocks.DEEPSLATE_BEDROCK.get());
+                output.accept(ElyxionBlocks.HARDSTONE.get());
+                output.accept(ElyxionBlocks.OBDURITE.get());
             }).build());
 
 

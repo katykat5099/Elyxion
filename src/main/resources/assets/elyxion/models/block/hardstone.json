@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "elyxion:block/deepslate_bedrock"
+    "all": "elyxion:block/hardstone"
   }
 }

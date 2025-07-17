@@ -72,7 +72,7 @@ public class Elyxion
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(ElyxionBlocks.DEEPSLATE_BEDROCK);
+            event.accept(ElyxionBlocks.OBDURITE);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

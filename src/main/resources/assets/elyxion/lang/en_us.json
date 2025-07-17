@@ -19,8 +19,8 @@
   "block.elyxion.sewing_machine": "Sewing Machine",
   "block.elyxion.trap": "Trap",
   "block.elyxion.animal_totem": "Animal Totem",
-  "block.elyxion.stone_deepslate": "Stone Deepslate",
-  "block.elyxion.deepslate_bedrock": "Deepslate Bedrock",
+  "block.elyxion.hardstone": "Hardstone",
+  "block.elyxion.obdurite": "Obdurite",
 
   "creative_tab.elyxion_tab": "Elyxion Items"
 }
