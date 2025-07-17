@@ -1,0 +1,26 @@
+{
+  "item.elyxion.envelope": "Envelope",
+  "item.elyxion.perch": "Perch",
+  "item.elyxion.cotton": "Cotton",
+  "item.elyxion.cloth": "Cloth",
+  "item.elyxion.silk": "Silk",
+  "item.elyxion.clothing_part": "Clothing Part",
+  "item.elyxion.metal_ring": "Metal Ring",
+  "item.elyxion.metal_pin": "Metal Pin",
+  "item.elyxion.prong": "Prong",
+  "item.elyxion.letter": "Letter",
+
+  "block.elyxion.bird_post": "Bird Post",
+  "block.elyxion.home_perch": "Home Perch",
+  "block.elyxion.mailbox": "Mailbox",
+  "block.elyxion.bulletin_board": "Bulletin Board",
+  "block.elyxion.carpentry_station": "Carpentry Station",
+  "block.elyxion.jewel_cutter": "Jewel Cutter",
+  "block.elyxion.sewing_machine": "Sewing Machine",
+  "block.elyxion.trap": "Trap",
+  "block.elyxion.animal_totem": "Animal Totem",
+  "block.elyxion.stone_deepslate": "Stone Deepslate",
+  "block.elyxion.deepslate_bedrock": "Deepslate Bedrock",
+
+  "creative_tab.elyxion_tab": "Elyxion Items"
+}

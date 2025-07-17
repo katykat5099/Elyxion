@@ -13,9 +13,19 @@ import net.minecraftforge.registries.RegistryObject;
 public class ElyxionItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Elyxion.MODID);
 
-    public static final RegistryObject<Item> EXAMPLE_ITEM = ElyxionItems.ITEMS.register("example_item", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
-            .alwaysEat().nutrition(1).saturationMod(2f).build())));
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(ElyxionBlocks.EXAMPLE_BLOCK.get(), new Item.Properties()));
+    // Materials
+    public static final RegistryObject<Item> ENVELOPE = ITEMS.register("envelope", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PERCH = ITEMS.register("perch", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COTTON = ITEMS.register("cotton", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILK = ITEMS.register("silk", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CLOTHING_PART = ITEMS.register("clothing_part", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_RING = ITEMS.register("metal_ring", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_PIN = ITEMS.register("metal_pin", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PRONG = ITEMS.register("prong", () -> new Item(new Item.Properties()));
+
+    // Usable Items
+    public static final RegistryObject<Item> LETTER = ITEMS.register("letter", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

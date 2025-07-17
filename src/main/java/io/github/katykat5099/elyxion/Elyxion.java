@@ -33,17 +33,6 @@ public class Elyxion
     public static final String MODID = "elyxion";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    // Deferred Registries
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-
-    // Objects
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> ElyxionItems.EXAMPLE_ITEM.get().getDefaultInstance())
-            .displayItems((parameters, output) -> {
-                output.accept(ElyxionItems.EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
-            }).build());
-
     public Elyxion(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
@@ -51,12 +40,10 @@ public class Elyxion
         // Registers
         ElyxionBlocks.register(modEventBus);
         ElyxionItems.register(modEventBus);
+        ElyxionCreativeTab.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-        // Register the Deferred Register to the mod event bus so tabs get registered
-        CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -85,7 +72,7 @@ public class Elyxion
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-            event.accept(ElyxionItems.EXAMPLE_BLOCK_ITEM);
+            event.accept(ElyxionBlocks.DEEPSLATE_BEDROCK);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
