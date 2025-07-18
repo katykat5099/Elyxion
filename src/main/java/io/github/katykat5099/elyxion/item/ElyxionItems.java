@@ -1,10 +1,12 @@
 package io.github.katykat5099.elyxion.item;
 
 import io.github.katykat5099.elyxion.Elyxion;
+import io.github.katykat5099.elyxion.ElyxionToolTiers;
 import io.github.katykat5099.elyxion.block.ElyxionBlocks;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,6 +28,9 @@ public class ElyxionItems {
 
     // Usable Items
     public static final RegistryObject<Item> LETTER = ITEMS.register("letter", () -> new Item(new Item.Properties()));
+
+    // Tools
+    public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ElyxionToolTiers.COPPER, 1, -2.8F, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
