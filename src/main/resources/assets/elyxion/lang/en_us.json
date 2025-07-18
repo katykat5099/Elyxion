@@ -25,6 +25,10 @@
   "block.elyxion.hardstone_iron_ore": "Hardstone Iron Ore",
   "block.elyxion.hardstone_gold_ore": "Hardstone Gold Ore",
   "block.elyxion.obdurite": "Obdurite",
+  "block.elyxion.obdurite_gold_ore": "Obdurite Gold Ore",
+  "block.elyxion.obdurite_diamond_ore": "Obdurite Diamond Ore",
+  "block.elyxion.obdurite_redstone_ore": "Obdurite Redstone Ore",
+  "block.elyxion.obdurite_lapis_ore": "Obdurite Lapis Lazuli Ore",
 
   "creative_tab.elyxion_tab": "Elyxion Items"
 }

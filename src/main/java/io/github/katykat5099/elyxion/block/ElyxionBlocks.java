@@ -32,6 +32,10 @@ public class ElyxionBlocks {
     public static final RegistryObject<Block> HARDSTONE_IRON_ORE = registerBlock("hardstone_iron_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> HARDSTONE_GOLD_ORE = registerBlock("hardstone_gold_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final RegistryObject<Block> OBDURITE = registerBlock("obdurite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> OBDURITE_GOLD_ORE = registerBlock("obdurite_gold_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> OBDURITE_DIAMOND_ORE = registerBlock("obdurite_diamond_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> OBDURITE_REDSTONE_ORE = registerBlock("obdurite_redstone_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
+    public static final RegistryObject<Block> OBDURITE_LAPIS_ORE = registerBlock("obdurite_lapis_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

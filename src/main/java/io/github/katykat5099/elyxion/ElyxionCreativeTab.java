@@ -40,6 +40,10 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.HARDSTONE_IRON_ORE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_GOLD_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE.get());
+                output.accept(ElyxionBlocks.OBDURITE_GOLD_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_REDSTONE_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_LAPIS_ORE.get());
             }).build());
 
 
