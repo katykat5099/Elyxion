@@ -1,10 +1,7 @@
 package io.github.katykat5099.elyxion.item;
 
 import io.github.katykat5099.elyxion.Elyxion;
-import io.github.katykat5099.elyxion.ElyxionToolTiers;
-import io.github.katykat5099.elyxion.block.ElyxionBlocks;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
+import io.github.katykat5099.elyxion.gameplay.ElyxionToolTiers;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;

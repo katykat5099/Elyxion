@@ -33,5 +33,8 @@
   "block.elyxion.obdurite_redstone_ore": "Obdurite Redstone Ore",
   "block.elyxion.obdurite_lapis_ore": "Obdurite Lapis Lazuli Ore",
 
-  "creative_tab.elyxion_tab": "Elyxion Items"
+  "creative_tab.elyxion_tab": "Elyxion Items",
+
+  "death.attack.pressure": "%1$s was fatally crushed by the earth's pressure"
+
 }

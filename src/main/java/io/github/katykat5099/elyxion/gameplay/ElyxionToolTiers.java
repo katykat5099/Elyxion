@@ -1,4 +1,4 @@
-package io.github.katykat5099.elyxion;
+package io.github.katykat5099.elyxion.gameplay;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
