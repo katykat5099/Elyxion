@@ -2,11 +2,13 @@
   "replace": false,
   "values": [
     "elyxion:hardstone",
+    "elyxion:hardcobblestone",
     "elyxion:hardstone_coal_ore",
     "elyxion:hardstone_copper_ore",
     "elyxion:hardstone_iron_ore",
     "elyxion:hardstone_gold_ore",
     "elyxion:obdurite",
+    "elyxion:fractured_obdurite",
     "elyxion:obdurite_gold_ore",
     "elyxion:obdurite_diamond_ore",
     "elyxion:obdurite_redstone_ore",
