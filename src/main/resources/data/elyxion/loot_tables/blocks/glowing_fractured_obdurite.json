@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elyxion:glowing_fractured_obdurite"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "elyxion:blocks/glowing_fractured_obdurite"
+}

@@ -42,6 +42,7 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.HARDSTONE_GOLD_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE.get());
                 output.accept(ElyxionBlocks.FRACTURED_OBDURITE.get());
+                output.accept(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get());
                 output.accept(ElyxionBlocks.OBDURITE_GOLD_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE_REDSTONE_ORE.get());

@@ -58,6 +58,10 @@ public class ElyxionBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .strength(4.0F, 6.0F)));
+    public static final RegistryObject<Block> GLOWING_FRACTURED_OBDURITE = registerBlock("glowing_fractured_obdurite",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4.0F, 6.0F)));
     public static final RegistryObject<Block> OBDURITE_GOLD_ORE = registerBlock("obdurite_gold_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
