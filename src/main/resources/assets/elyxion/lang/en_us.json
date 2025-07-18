@@ -20,6 +20,10 @@
   "block.elyxion.trap": "Trap",
   "block.elyxion.animal_totem": "Animal Totem",
   "block.elyxion.hardstone": "Hardstone",
+  "block.elyxion.hardstone_coal_ore": "Hardstone Coal Ore",
+  "block.elyxion.hardstone_copper_ore": "Hardstone Copper Ore",
+  "block.elyxion.hardstone_iron_ore": "Hardstone Iron Ore",
+  "block.elyxion.hardstone_gold_ore": "Hardstone Gold Ore",
   "block.elyxion.obdurite": "Obdurite",
 
   "creative_tab.elyxion_tab": "Elyxion Items"
