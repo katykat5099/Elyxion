@@ -5,6 +5,8 @@
     "minecraft:diorite",
     "minecraft:andesite",
     "minecraft:tuff",
-    "minecraft:deepslate"
+    "elyxion:hardstone",
+    "minecraft:deepslate",
+    "elyxion:obdurite"
   ]
 }
