@@ -3,6 +3,7 @@
     "minecraft:gold_ore",
     "minecraft:nether_gold_ore",
     "elyxion:hardstone_gold_ore",
-    "minecraft:deepslate_gold_ore"
+    "minecraft:deepslate_gold_ore",
+    "elyxion:obdurite_gold_ore"
   ]
 }

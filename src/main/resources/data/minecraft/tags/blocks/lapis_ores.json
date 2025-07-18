@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:lapis_ore",
-    "minecraft:deepslate_lapis_ore"
+    "minecraft:deepslate_lapis_ore",
+    "elyxion:obdurite_lapis_ore"
   ]
 }
