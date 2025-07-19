@@ -17,7 +17,7 @@ public class ElyxionEventHandler {
 
         // Negatively affect the player the deeper they go into the world, starting below 10
         Player player = event.player;
-        if (!(player.level() instanceof ServerLevel serverLevel)) return;
+        if (!(player.level() instanceof ServerLevel serverLevel) || player.isCreative() || player.isSpectator()) return;
         double y = player.getY();
 
         if (y < 10) {
