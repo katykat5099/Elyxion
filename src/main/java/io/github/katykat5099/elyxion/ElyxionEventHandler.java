@@ -2,11 +2,8 @@ package io.github.katykat5099.elyxion;
 
 import io.github.katykat5099.elyxion.gameplay.ElyxionDamageTypes;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -22,9 +19,13 @@ public class ElyxionEventHandler {
         double y = player.getY();
 
         if (y < 10) {
-            int depth = (int)(20 - y);
-            float damage = Math.min(0.5f + (depth * 0.01f), 3.0f);
-            if (player.tickCount % 100 == 0) {
+            int depth = (int)(y);
+            float scale = (10 - depth) / 74f;
+
+            float damage = Math.min(scale * 10f, 10.0f);
+            int interval = (int)(600 - scale * (600 - 40));
+
+            if (player.tickCount % interval == 0) {
                 player.hurt(ElyxionDamageTypes.pressure(serverLevel), damage);
             }
         }
