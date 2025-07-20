@@ -3,6 +3,7 @@ package io.github.katykat5099.elyxion.datagen;
 import io.github.katykat5099.elyxion.Elyxion;
 import io.github.katykat5099.elyxion.block.ElyxionBlocks;
 import io.github.katykat5099.elyxion.gameplay.ElyxionToolTiers;
+import io.github.katykat5099.elyxion.util.ElyxionTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -35,6 +36,15 @@ public class ElyxionBlockTagProvider extends BlockTagsProvider {
                         ElyxionBlocks.OBDURITE_DIAMOND_ORE.get()
                 );
 
+        // Hardstone
+        this.tag(ElyxionTags.Blocks.NEEDS_COPPER_TOOL).add(ElyxionBlocks.HARDSTONE.get());
+        this.tag(ElyxionTags.Blocks.NEEDS_COPPER_TOOL).add(ElyxionBlocks.HARDCOBBLESTONE.get());
+        this.tag(ElyxionTags.Blocks.NEEDS_COPPER_TOOL).add(ElyxionBlocks.HARDSTONE_COAL_ORE.get());
+        this.tag(ElyxionTags.Blocks.NEEDS_COPPER_TOOL).add(ElyxionBlocks.HARDSTONE_COPPER_ORE.get());
+        this.tag(ElyxionTags.Blocks.NEEDS_COPPER_TOOL).add(ElyxionBlocks.HARDSTONE_IRON_ORE.get());
+        this.tag(BlockTags.NEEDS_IRON_TOOL).add(ElyxionBlocks.HARDSTONE_GOLD_ORE.get());
+
+        // Obdurite
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ElyxionBlocks.OBDURITE.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ElyxionBlocks.FRACTURED_OBDURITE.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get());

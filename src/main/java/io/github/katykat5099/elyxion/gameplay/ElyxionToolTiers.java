@@ -15,7 +15,8 @@ public class ElyxionToolTiers {
             5.0F,
             4.0F,
             30,
-            TagKey.create(ForgeRegistries.BLOCKS.getRegistryKey(), ResourceLocation.fromNamespaceAndPath("elyxion", "needs_copper_tool")),
+            TagKey.create(ForgeRegistries.BLOCKS.getRegistryKey(),
+            ResourceLocation.fromNamespaceAndPath("elyxion", "needs_copper_tool")),
             () -> Ingredient.of(Items.COPPER_INGOT)
     );
 }
