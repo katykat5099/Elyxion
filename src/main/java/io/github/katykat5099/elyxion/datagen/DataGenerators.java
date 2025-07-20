@@ -29,5 +29,7 @@ public class DataGenerators {
         ElyxionBlockTagProvider blockTagProvider = generator.addProvider(event.includeServer(),
                 new ElyxionBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new ElyxionItemTagProvider(packOutput, lookupProvider, blockTagProvider.contentsGetter(), existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ElyxionWorldGenProvider(packOutput, lookupProvider));
     }
 }

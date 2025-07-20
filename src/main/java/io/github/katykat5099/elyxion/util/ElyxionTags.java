@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 public class ElyxionTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_COPPER_TOOL = tag("needs_copper_tool");
+        public static final TagKey<Block> HARDSTONE_ORE_REPLACEABLES = tag("hardstone_ore_replaceables");
+        public static final TagKey<Block> OBDURITE_ORE_REPLACEABLES = tag("obdurite_ore_replaceables");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Elyxion.MODID, name));
