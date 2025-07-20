@@ -135,11 +135,6 @@ dependencies {
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
-    //compileOnly fg.deobf("slimeknights.mantle:Mantle:1.20.1-1.11.71")
-    //runtimeOnly fg.deobf("slimeknights.mantle:Mantle:1.20.1-1.11.71")
-
-    //compileOnly fg.deobf("slimeknights.tconstruct:TConstruct:1.20.1-3.10.2.92-sources")
-    //runtimeOnly fg.deobf("slimeknights.tconstruct:TConstruct:1.20.1-3.10.2.92-sources")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

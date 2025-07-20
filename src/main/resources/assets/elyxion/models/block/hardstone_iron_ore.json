@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "elyxion:block/hardstone_iron_ore"
-  }
-}
