@@ -34,5 +34,8 @@ jobs:
         curl -L -o libs/TConstruct-1.20.1-3.10.2.92-sources.jar https://github.com/SlimeKnights/TinkersConstruct/releases/download/v3.10.2.92/TConstruct-1.20.1-3.10.2.92-sources.jar
         curl -L -o libs/TConstruct-1.20.1-3.10.2.92.jar https://github.com/SlimeKnights/TinkersConstruct/releases/download/v3.10.2.92/TConstruct-1.20.1-3.10.2.92.jar
 
+    - name: Give permissions
+      run: chmod +x ./gradlew
+
     - name: Build with Gradle Wrapper
       run: ./gradlew build
