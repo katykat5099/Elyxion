@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.github.katykat5099.elyxion.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "elyxion.refmap.json",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
