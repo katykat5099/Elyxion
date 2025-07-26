@@ -64,7 +64,7 @@ public class Elyxion
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
 
         event.enqueueWork(() -> {
-            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, Elyxion.MODID, ElyxionSurfaceRuleData.makeRules());
+            SurfaceRuleManager.addToDefaultSurfaceRulesAtStage(SurfaceRuleManager.RuleCategory.OVERWORLD, SurfaceRuleManager.RuleStage.BEFORE_BEDROCK, 1, ElyxionSurfaceRuleData.makeRules());
         });
     }
 
