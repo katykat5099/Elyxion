@@ -28,20 +28,20 @@ public class ElyxionSurfaceRuleData {
         SurfaceRules.ConditionSource hardstoneLayer = SurfaceRules.verticalGradient("hardstone",VerticalAnchor.absolute(20), VerticalAnchor.absolute(25));
 
         // Deepslate
-        SurfaceRules.ConditionSource deepslateLayer = SurfaceRules.verticalGradient("deepslate",VerticalAnchor.absolute(-9), VerticalAnchor.absolute(-14));
+        SurfaceRules.ConditionSource deepslateLayer = SurfaceRules.verticalGradient("deepslate",VerticalAnchor.absolute(-14), VerticalAnchor.absolute(-9));
 
         // Obdurite
-        SurfaceRules.ConditionSource obduriteLayer = SurfaceRules.verticalGradient("obdurite",VerticalAnchor.absolute(-48), VerticalAnchor.absolute(-53));
+        SurfaceRules.ConditionSource obduriteLayer = SurfaceRules.verticalGradient("obdurite",VerticalAnchor.absolute(-53), VerticalAnchor.absolute(-48));
 
         // Bedrock
         SurfaceRules.ConditionSource bedrockLayer = SurfaceRules.verticalGradient("bedrock_floor",VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(5));
 
 
-        return SurfaceRules.sequence(
-            SurfaceRules.ifTrue(bedrockLayer,BEDROCK),
-            SurfaceRules.ifTrue(obduriteLayer,OBDURITE),
-            SurfaceRules.ifTrue(deepslateLayer, DEEPSLATE),
-            SurfaceRules.ifTrue(hardstoneLayer, HARDSTONE)
+        return  SurfaceRules.sequence(
+                    SurfaceRules.ifTrue(bedrockLayer,BEDROCK),
+                    SurfaceRules.ifTrue(obduriteLayer,OBDURITE),
+                    SurfaceRules.ifTrue(deepslateLayer, DEEPSLATE),
+                    SurfaceRules.ifTrue(hardstoneLayer, HARDSTONE)
         );
     }
 }
