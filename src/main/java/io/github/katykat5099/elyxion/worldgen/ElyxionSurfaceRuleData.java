@@ -25,13 +25,13 @@ public class ElyxionSurfaceRuleData {
 
     private static SurfaceRules.RuleSource overworld() {
         // Hardstone
-        SurfaceRules.ConditionSource hardstoneLayer = SurfaceRules.verticalGradient("hardstone",VerticalAnchor.absolute(20), VerticalAnchor.absolute(25));
+        SurfaceRules.ConditionSource hardstoneLayer = SurfaceRules.verticalGradient("hardstone",VerticalAnchor.absolute(34), VerticalAnchor.absolute(40));
 
         // Deepslate
-        SurfaceRules.ConditionSource deepslateLayer = SurfaceRules.verticalGradient("deepslate",VerticalAnchor.absolute(-14), VerticalAnchor.absolute(-9));
+        SurfaceRules.ConditionSource deepslateLayer = SurfaceRules.verticalGradient("deepslate",VerticalAnchor.absolute(0), VerticalAnchor.absolute(8));
 
         // Obdurite
-        SurfaceRules.ConditionSource obduriteLayer = SurfaceRules.verticalGradient("obdurite",VerticalAnchor.absolute(-53), VerticalAnchor.absolute(-48));
+        SurfaceRules.ConditionSource obduriteLayer = SurfaceRules.verticalGradient("obdurite",VerticalAnchor.absolute(-30), VerticalAnchor.absolute(-20));
 
         // Bedrock
         SurfaceRules.ConditionSource bedrockLayer = SurfaceRules.verticalGradient("bedrock_floor",VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(5));
