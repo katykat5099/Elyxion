@@ -37,16 +37,24 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.HARDSTONE.get());
                 output.accept(ElyxionBlocks.HARDCOBBLESTONE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_COAL_ORE.get());
-                output.accept(ElyxionBlocks.HARDSTONE_COPPER_ORE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_IRON_ORE.get());
+                output.accept(ElyxionBlocks.HARDSTONE_COPPER_ORE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_GOLD_ORE.get());
+                output.accept(ElyxionBlocks.HARDSTONE_REDSTONE_ORE.get());
+                output.accept(ElyxionBlocks.HARDSTONE_EMERALD_ORE.get());
+                output.accept(ElyxionBlocks.HARDSTONE_LAPIS_ORE.get());
+                output.accept(ElyxionBlocks.HARDSTONE_DIAMOND_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE.get());
                 output.accept(ElyxionBlocks.FRACTURED_OBDURITE.get());
                 output.accept(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get());
+                output.accept(ElyxionBlocks.OBDURITE_COAL_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_IRON_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_COPPER_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE_GOLD_ORE.get());
-                output.accept(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE_REDSTONE_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_EMERALD_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE_LAPIS_ORE.get());
+                output.accept(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get());
                 output.accept(ElyxionItems.COPPER_PICKAXE.get());
             }).build());
 

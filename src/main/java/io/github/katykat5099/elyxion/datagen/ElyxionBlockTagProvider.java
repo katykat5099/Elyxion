@@ -25,18 +25,26 @@ public class ElyxionBlockTagProvider extends BlockTagsProvider {
         // Mineable (Pickaxe)
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
             .add(ElyxionBlocks.HARDSTONE.get(),
-                    ElyxionBlocks.HARDCOBBLESTONE.get(),
-                    ElyxionBlocks.HARDSTONE_COAL_ORE.get(),
-                    ElyxionBlocks.HARDSTONE_COPPER_ORE.get(),
-                    ElyxionBlocks.HARDSTONE_IRON_ORE.get(),
-                    ElyxionBlocks.HARDSTONE_GOLD_ORE.get(),
-                    ElyxionBlocks.OBDURITE.get(),
-                    ElyxionBlocks.FRACTURED_OBDURITE.get(),
-                    ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get(),
-                    ElyxionBlocks.OBDURITE_LAPIS_ORE.get(),
-                    ElyxionBlocks.OBDURITE_REDSTONE_ORE.get(),
-                    ElyxionBlocks.OBDURITE_GOLD_ORE.get(),
-                    ElyxionBlocks.OBDURITE_DIAMOND_ORE.get()
+                 ElyxionBlocks.HARDCOBBLESTONE.get(),
+                 ElyxionBlocks.HARDSTONE_COAL_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_IRON_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_COPPER_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_GOLD_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_REDSTONE_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_EMERALD_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_LAPIS_ORE.get(),
+                 ElyxionBlocks.HARDSTONE_DIAMOND_ORE.get(),
+                 ElyxionBlocks.OBDURITE.get(),
+                 ElyxionBlocks.FRACTURED_OBDURITE.get(),
+                 ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get(),
+                 ElyxionBlocks.OBDURITE_COAL_ORE.get(),
+                 ElyxionBlocks.OBDURITE_IRON_ORE.get(),
+                 ElyxionBlocks.OBDURITE_COPPER_ORE.get(),
+                 ElyxionBlocks.OBDURITE_GOLD_ORE.get(),
+                 ElyxionBlocks.OBDURITE_REDSTONE_ORE.get(),
+                 ElyxionBlocks.OBDURITE_EMERALD_ORE.get(),
+                 ElyxionBlocks.OBDURITE_LAPIS_ORE.get(),
+                 ElyxionBlocks.OBDURITE_DIAMOND_ORE.get()
         );
 
         // Hardstone Needs _ Tool

@@ -31,18 +31,26 @@ public class ElyxionBlockLootTables extends BlockLootSubProvider {
         this.add(ElyxionBlocks.HARDSTONE.get(), block -> createSingleItemTableWithSilkTouch(block, ElyxionBlocks.HARDCOBBLESTONE.get()));
         this.dropSelf(ElyxionBlocks.HARDCOBBLESTONE.get());
         this.add(ElyxionBlocks.HARDSTONE_COAL_ORE.get(), block -> createOreDrop(block, Items.COAL));
-        this.add(ElyxionBlocks.HARDSTONE_COPPER_ORE.get(), block -> createCopperOreDrops(block));
         this.add(ElyxionBlocks.HARDSTONE_IRON_ORE.get(), block -> createOreDrop(block, Items.RAW_IRON));
+        this.add(ElyxionBlocks.HARDSTONE_COPPER_ORE.get(), block -> createCopperOreDrops(block));
         this.add(ElyxionBlocks.HARDSTONE_GOLD_ORE.get(), block -> createOreDrop(block, Items.RAW_GOLD));
+        this.add(ElyxionBlocks.HARDSTONE_REDSTONE_ORE.get(), block -> createRedstoneOreDrops(block));
+        this.add(ElyxionBlocks.HARDSTONE_EMERALD_ORE.get(), block -> createOreDrop(block, Items.EMERALD));
+        this.add(ElyxionBlocks.HARDSTONE_LAPIS_ORE.get(), block -> createLapisOreDrops(block));
+        this.add(ElyxionBlocks.HARDSTONE_DIAMOND_ORE.get(), block -> createOreDrop(block, Items.DIAMOND));
 
         // Obdurite
         this.add(ElyxionBlocks.OBDURITE.get(), block -> createSingleItemTableWithSilkTouch(block, ElyxionBlocks.FRACTURED_OBDURITE.get()));
         this.dropSelf(ElyxionBlocks.FRACTURED_OBDURITE.get());
-        this.dropSelf(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get());
+        this.add(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get(), block -> createSingleItemTable(ElyxionBlocks.FRACTURED_OBDURITE.get()));
+        this.add(ElyxionBlocks.OBDURITE_COAL_ORE.get(), block -> createOreDrop(block, Items.COAL));
+        this.add(ElyxionBlocks.OBDURITE_IRON_ORE.get(), block -> createOreDrop(block, Items.RAW_IRON));
+        this.add(ElyxionBlocks.OBDURITE_COPPER_ORE.get(), block -> createCopperOreDrops(block));
         this.add(ElyxionBlocks.OBDURITE_GOLD_ORE.get(), block -> createOreDrop(block, Items.RAW_GOLD));
-        this.add(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get(), block -> createOreDrop(block, Items.DIAMOND));
-        this.add(ElyxionBlocks.OBDURITE_LAPIS_ORE.get(), block -> createLapisOreDrops(block));
         this.add(ElyxionBlocks.OBDURITE_REDSTONE_ORE.get(), block -> createRedstoneOreDrops(block));
+        this.add(ElyxionBlocks.OBDURITE_EMERALD_ORE.get(), block -> createOreDrop(block, Items.EMERALD));
+        this.add(ElyxionBlocks.OBDURITE_LAPIS_ORE.get(), block -> createLapisOreDrops(block));
+        this.add(ElyxionBlocks.OBDURITE_DIAMOND_ORE.get(), block -> createOreDrop(block, Items.DIAMOND));
     }
 
     @Override
