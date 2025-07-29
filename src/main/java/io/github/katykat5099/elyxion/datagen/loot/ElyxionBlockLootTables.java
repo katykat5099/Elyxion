@@ -29,6 +29,8 @@ public class ElyxionBlockLootTables extends BlockLootSubProvider {
 
         // Hardstone
         this.add(ElyxionBlocks.HARDSTONE.get(), block -> createSingleItemTableWithSilkTouch(block, ElyxionBlocks.HARDCOBBLESTONE.get()));
+        this.dropSelf(ElyxionBlocks.HARDBRICKSTONE.get());
+        this.dropSelf(ElyxionBlocks.ROUGHLYSMOOTHSTONE.get());
         this.dropSelf(ElyxionBlocks.HARDCOBBLESTONE.get());
         this.add(ElyxionBlocks.HARDSTONE_COAL_ORE.get(), block -> createOreDrop(block, Items.COAL));
         this.add(ElyxionBlocks.HARDSTONE_IRON_ORE.get(), block -> createOreDrop(block, Items.RAW_IRON));
@@ -41,6 +43,8 @@ public class ElyxionBlockLootTables extends BlockLootSubProvider {
 
         // Obdurite
         this.add(ElyxionBlocks.OBDURITE.get(), block -> createSingleItemTableWithSilkTouch(block, ElyxionBlocks.FRACTURED_OBDURITE.get()));
+        this.dropSelf(ElyxionBlocks.OBDURITE_BRICKS.get());
+        this.dropSelf(ElyxionBlocks.SMOOTH_OBDURITE.get());
         this.dropSelf(ElyxionBlocks.FRACTURED_OBDURITE.get());
         this.add(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get(), block -> createSingleItemTable(ElyxionBlocks.FRACTURED_OBDURITE.get()));
         this.add(ElyxionBlocks.OBDURITE_COAL_ORE.get(), block -> createOreDrop(block, Items.COAL));

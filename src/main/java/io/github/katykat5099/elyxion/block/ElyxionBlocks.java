@@ -33,6 +33,16 @@ public class ElyxionBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(2.0F, 2.0F))
     );
+    public static final RegistryObject<Block> HARDBRICKSTONE = registerBlock("hardbrickstone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 2.0F))
+    );
+    public static final RegistryObject<Block> ROUGHLYSMOOTHSTONE = registerBlock("roughlysmoothstone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(2.0F, 2.0F))
+    );
     public static final RegistryObject<Block> HARDCOBBLESTONE = registerBlock("hardcobblestone",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
@@ -81,6 +91,16 @@ public class ElyxionBlocks {
 
     // Obdurite
     public static final RegistryObject<Block> OBDURITE = registerBlock("obdurite",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4.0F, 6.0F))
+    );
+    public static final RegistryObject<Block> OBDURITE_BRICKS = registerBlock("obdurite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops()
+                    .strength(4.0F, 6.0F))
+    );
+    public static final RegistryObject<Block> SMOOTH_OBDURITE = registerBlock("smooth_obdurite",
             () -> new Block(BlockBehaviour.Properties.of()
                     .requiresCorrectToolForDrops()
                     .strength(4.0F, 6.0F))

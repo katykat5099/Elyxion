@@ -25,6 +25,8 @@ public class ElyxionBlockTagProvider extends BlockTagsProvider {
         // Mineable (Pickaxe)
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
             .add(ElyxionBlocks.HARDSTONE.get(),
+                 ElyxionBlocks.SMOOTH_OBDURITE.get(),
+                 ElyxionBlocks.ROUGHLYSMOOTHSTONE.get(),
                  ElyxionBlocks.HARDCOBBLESTONE.get(),
                  ElyxionBlocks.HARDSTONE_COAL_ORE.get(),
                  ElyxionBlocks.HARDSTONE_IRON_ORE.get(),
@@ -35,6 +37,8 @@ public class ElyxionBlockTagProvider extends BlockTagsProvider {
                  ElyxionBlocks.HARDSTONE_LAPIS_ORE.get(),
                  ElyxionBlocks.HARDSTONE_DIAMOND_ORE.get(),
                  ElyxionBlocks.OBDURITE.get(),
+                 ElyxionBlocks.OBDURITE_BRICKS.get(),
+                 ElyxionBlocks.SMOOTH_OBDURITE.get(),
                  ElyxionBlocks.FRACTURED_OBDURITE.get(),
                  ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get(),
                  ElyxionBlocks.OBDURITE_COAL_ORE.get(),

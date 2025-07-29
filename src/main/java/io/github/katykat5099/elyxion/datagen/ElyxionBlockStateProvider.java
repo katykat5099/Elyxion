@@ -16,6 +16,8 @@ public class ElyxionBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ElyxionBlocks.HARDSTONE);
+        blockWithItem(ElyxionBlocks.HARDBRICKSTONE);
+        blockWithItem(ElyxionBlocks.ROUGHLYSMOOTHSTONE);
         blockWithItem(ElyxionBlocks.HARDCOBBLESTONE);
         blockWithItem(ElyxionBlocks.HARDSTONE_COAL_ORE);
         blockWithItem(ElyxionBlocks.HARDSTONE_IRON_ORE);
@@ -26,6 +28,8 @@ public class ElyxionBlockStateProvider extends BlockStateProvider {
         blockWithItem(ElyxionBlocks.HARDSTONE_LAPIS_ORE);
         blockWithItem(ElyxionBlocks.HARDSTONE_DIAMOND_ORE);
         blockWithItem(ElyxionBlocks.OBDURITE);
+        blockWithItem(ElyxionBlocks.OBDURITE_BRICKS);
+        blockWithItem(ElyxionBlocks.SMOOTH_OBDURITE);
         blockWithItem(ElyxionBlocks.FRACTURED_OBDURITE);
         blockWithItem(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE);
         blockWithItem(ElyxionBlocks.OBDURITE_COAL_ORE);

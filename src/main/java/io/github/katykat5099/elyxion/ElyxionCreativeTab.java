@@ -35,6 +35,8 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.TRAP.get());
                 output.accept(ElyxionBlocks.ANIMAL_TOTEM.get());
                 output.accept(ElyxionBlocks.HARDSTONE.get());
+                output.accept(ElyxionBlocks.HARDBRICKSTONE.get());
+                output.accept(ElyxionBlocks.ROUGHLYSMOOTHSTONE.get());
                 output.accept(ElyxionBlocks.HARDCOBBLESTONE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_COAL_ORE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_IRON_ORE.get());
@@ -45,6 +47,8 @@ public class ElyxionCreativeTab {
                 output.accept(ElyxionBlocks.HARDSTONE_LAPIS_ORE.get());
                 output.accept(ElyxionBlocks.HARDSTONE_DIAMOND_ORE.get());
                 output.accept(ElyxionBlocks.OBDURITE.get());
+                output.accept(ElyxionBlocks.OBDURITE_BRICKS.get());
+                output.accept(ElyxionBlocks.SMOOTH_OBDURITE.get());
                 output.accept(ElyxionBlocks.FRACTURED_OBDURITE.get());
                 output.accept(ElyxionBlocks.GLOWING_FRACTURED_OBDURITE.get());
                 output.accept(ElyxionBlocks.OBDURITE_COAL_ORE.get());
